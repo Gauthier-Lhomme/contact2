@@ -27,8 +27,8 @@ function Contact(props) {
 Contact.propTypes = {
   image: PropTypes.string.isRequired,
   user: PropTypes.string.isRequired,
-  status: PropTypes.string.isRequired,
-  text: PropTypes.string.isRequired,
+  status: PropTypes.bool.isRequired,
+  text: PropTypes.bool.isRequired,
 
 };
 
