@@ -1,31 +1,10 @@
 import React from "react";
-import Contact from "./components/Contact";
+import ContactList from "./components/ContactList.jsx";
 
 function App() {
   return (
     <div className="App">
-      <Contact
-      image="https://randomuser.me/api/portraits/men/12.jpg"
-      user ="Joshua Lopez"
-      status = "true"
-      text = "true"
-      
-      />
-      <Contact
-      image="https://randomuser.me/api/portraits/men/12.jpg"
-      user ="Joshua Lopez"
-
-      
-      />
-      <Contact
-      image="https://randomuser.me/api/portraits/men/12.jpg"
-      user ="Joshua Lopez"
-      status = "true"
-      text = "true"
-
-
-      
-      />
+      <ContactList />
     </div>
   );
 }
